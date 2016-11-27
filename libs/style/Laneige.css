@@ -1,0 +1,516 @@
+/****初始化*****/
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration: none;
+}
+button{
+	border:none;
+}
+li{
+	list-style: none;
+}
+i{
+	font-style: normal;
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+}
+em{
+	font-style: normal;
+}
+input,select{
+	outline: none;
+}
+body{
+	font-size: 12px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cur{
+	cursor: pointer;
+}
+/***最大的div，最大的盒子****/
+.conWidth{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*******nav******/
+.lan-nav{
+	height: 50px;
+	line-height: 50px;
+}
+.lan-nav a{
+	color: #666;
+}
+/*********主体**********/
+/***左边*****/
+.lan-mainL{
+	width: 350px;
+	overflow: hidden;
+	float: left;
+}
+.lan-lead{
+	width: 348px;
+	height: 350px;
+	border: 1px solid #ccc;
+}
+.lan-lead img{
+	width: 348px;
+	height: 350px;
+}
+/*********放大图*********/
+.jqzoom{display:inline-block;position:relative;cursor:move;}
+div.zoomdiv{
+z-index                 :100;
+position                :absolute;
+top:0px;
+left:0px;
+width                   :200px;
+height                  :200px;
+background:#fff;
+border:1px solid #ccc;
+display:none;
+text-align:center;
+overflow:hidden;
+}
+div.jqZoomPup{
+z-index                 :10;
+visibility              :hidden;
+position                :absolute;
+top:0px;
+left:0px;
+width                   :50px;
+height                  :50px;
+border:1px solid #aaa;
+background:#fff url(zoom.gif) 50% top  no-repeat;
+opacity:.5;
+-moz-opacity:.5;
+-khtml-opacity:.5;
+filter:alpha(Opacity=50);
+}
+.lan-minImg{
+	position: relative;
+	margin-top: 10px;
+	height: 62px;
+	width: 354px;
+}
+.min-prev,.min-next{
+	position: absolute;
+	width: 18px;
+	color: #ccc;
+	border:1px solid #ccc;
+	background: #F9F9F9;
+	height: 52px;
+	top: 0;
+	text-align: center;
+	line-height: 52px;
+	cursor: pointer;
+}
+.min-prev{
+	left:0;
+	margin-right: 5px; 
+}
+.min-next{
+	right: 5px;
+	margin-left: 5px;
+}
+.minImg-list{
+	height: 56px;
+	width: 305px;
+	margin: 0 28px 0 19px;
+}
+.minImg-list li{
+	float: left;
+	margin-left: 5px;
+	width: 54px;
+	height: 54px;
+	border: 1px solid #ccc;
+}
+.minImg-list li:hover{
+	border: 1px solid #FF6600;
+}
+.minImg-list li img{
+	width: 54px;
+	height: 54px;
+}
+.lan-call{
+	font-size: 12px;
+	overflow: hidden;
+}
+.lan-call > p{
+	color: #A88675;
+	height: 30px;
+	margin-top: 15px;
+	line-height: 30px;
+}
+.lan-call > div{
+	color: #C81C00;
+	line-height: 36px;
+	height: 36px;
+}
+.lan-call > div >span{
+	padding-right: 30px;
+}
+/*******价格，介绍*********/
+.lan-mainR{
+	width: 810px;
+	overflow: hidden;
+}
+.goodsName{
+	padding-bottom: 8px;
+}
+.goodsName h1{
+	font-size: 18px;
+	color: #444;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+.goodsName h1 span{
+	color: #FF4F00;
+}
+.goodsName p{
+	font-size: 14px;
+	color: #999;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+/******价格******/
+.price-con{
+	width: 810px;
+	margin-top: 10px;
+	color: #666;
+	margin-left: 18px;
+	overflow: hidden;
+}
+.goodsPrice ul li{
+	width: 610px;
+	height: 30px;
+}
+.goodsPrice ul li div:first-child{
+	width: 72px;
+	line-height: 30px;
+}
+.goodsPrice ul li div{
+	display: inline-block;
+}
+#price{
+	color: #b3afe1;
+}
+#price b{
+	font-size: 18px;
+	color: #de3507;
+	font-weight: 700;
+	padding-right: 5px;
+}
+#price em{
+	display: inline-block;
+	padding: 0 4px;
+	border-radius: 3px;
+	margin:0 5px 0 15px;
+	line-height: 18px;
+	background: #b3afe1;
+	color: #fff;
+	font-weight: 500;
+}
+#goLogin a{
+	color: #fff;
+	display: inline-block;
+	background: #cc1d00;
+	line-height: 20px;
+	padding: 0 5px;
+}
+.goodsPrice .bgF7F7F7{
+	background: #F7F7F7;
+}
+.sales div>span{
+	color: #ff6d55;
+	font-weight: 500;
+}
+.sales div>i{
+	padding: 0 10px;
+	color: #000;
+	font-weight: 400;
+}
+#goodsNum button{
+	width: 21px;
+	height: 26px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+}
+#goodsNum input{
+	width: 42px;
+	height: 23px;
+	color: #000;
+	border-left: none;
+	border-right: none;
+	line-height: 26px;
+	text-align: center;
+	outline: none;
+}
+.joinCar{
+	width: 180px;
+	height: 50px;
+	background: #CC1D00;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0 15px 0 ;
+}
+.safe{
+	width: 185px;
+	overflow: hidden;
+	color: #176ecb;
+}
+.safe h3{
+	width: 185px;
+	height: 48px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 48px;
+	border-top: 1px solid #176ecb;
+	border-bottom: 1px solid #176ecb;
+}
+.safe li{
+	text-align: center;
+	line-height: 30px;
+}
+.lan-coll{
+	border: 1px solid #dbdbdb;
+	border-top: 1px solid #000;
+	overflow: hidden;
+}
+.laneige-title{
+	height: 32px;
+	background: #F7F7F7;
+	color: #151515;
+	font-weight: 500;
+	font-size: 14px;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+	line-height: 32px;
+	text-indent: 16px;
+}
+.coll-nav{
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+}
+.coll-nav li{
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+}
+.coll-nav li span,.coll-nav li i{
+	color: #FF2400;
+}
+.selAdd{
+	width: 760px;
+	height: 250px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	/*overflow: hidden;*/
+}
+.selAdd ul{
+	width: 1200px;
+	height: 245px;
+}
+.SelectedGoods{
+	width: 150px;
+	height: 219px;
+	padding: 10px 0 0 10px;
+	font-size: 12px;
+}
+/****选择图*****/
+.coll-list .coll-txt span{
+	font-size: 14px;
+	color: #cc1d00;
+	margin-left: 5px;
+}
+.coll-list .coll-txt em{
+	font-size: 14px;
+	color: #666;
+	text-decoration: line-through;
+}
+.coll-list .coll-txt>p:last-child{
+	color: #666;
+}
+.coll-list .coll-txt>p:first-child{
+	padding-bottom: 10px;
+}
+.selAdd li{
+	float: left;
+	width: 190px;
+	font-size: 12px;
+	height: 218px;
+}
+.add-icon{
+	display: inline-block;
+	width: 35px;
+	height: 22px;
+	float: left;
+
+	margin: 50px 0 0 5px;
+	background: url(../images/Laneige/laneige_icon.png) no-repeat 0 -143px;
+}
+.selAdd li .coll-txt{
+	width: 150px;
+	margin-left: 35px;
+}
+.totalGoods{
+	width: 210px;
+	height: 230px;
+	padding: 30px 0 0 50px;
+}
+.totalGoods i{
+	color: #000;
+}
+.tatalPrice{
+	color: #cc1d00;
+	font-size: 18px;
+	font-weight: 600;
+}
+.totalGoods h4{
+	float: left;
+	color: #000;
+}
+.save-money span{
+	color: #cc1d00;
+	font-size: 16px;
+	font-weight: 600;
+}
+.totalGoods button{
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 18px;
+	color: #fff;
+	background: #cc1d00;
+}
+.totalGoods li{
+	margin-bottom: 10px;
+}
+.lan-detail h3{
+	height: 36px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-top: 1px solid #000;
+}
+.lan-detail li{
+	float: left;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	padding-right: 15px;
+	font-weight: 700;
+	color: #666;
+}
+.lan-detail .active-det{
+	background: #fff;
+	border-top: 1px solid #CC1D00;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #ddd;
+	margin-top: -1px;
+	height: 37px;
+}
+.lan-detail .line-server{
+	color: #CC1D00;
+}
+.detail-con{
+	width: 790px;
+	margin:0 auto;
+
+}
+.detail-con img{
+	border: none;
+	margin-top: -3px;
+}
+.lan-discuss{
+	width: 960px;
+}
+.lan-discuss h3{
+	height: 36px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-top: 1px solid #000;
+}
+.lan-discuss .active-det{
+	background: #fff;
+	border-top: 1px solid #CC1D00;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #ddd;
+	margin-top: -1px;
+	height: 37px;
+	color: #CC1D00;
+}
+.lan-discuss li{
+	float: left;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	padding-right: 15px;
+	font-weight: 700;
+	color: #666;
+}
+.disL{
+	width: 120px;
+	margin-right: 15px;
+}
+.disR{
+	width: 790px;
+}
+.goods-disname{
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #ddd;
+	line-height: 30px;
+	height: 30px;
+	color: #333;
+}
+.member{
+	margin:10px 0;
+}
+.member span{
+	display: inline-block;
+	color: #fff;
+	background: #CC1D00;
+	padding: 2px;
+	text-align: center;
+	line-height: 16px;
+	height: 16px;
+	border-radius: 5px;
+}
+.member i{
+	color: #666;
+	font-weight: 500;
+}
+.reply{
+	color: #D16855;
+	margin-top: 10px;
+}
+.reply i{
+	color: #666;
+	font-weight: 500;
+}
+.lan-discuss>div{
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+}

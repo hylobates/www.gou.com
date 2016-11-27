@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>古俊辉 - findpwd</title>
+	<link rel="stylesheet" type="text/css" href="libs/style/findpwd.css">
+	<script type="text/javascript" src="libs/plugin/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/plugin/jquery-validation-1.15.1/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="libs/javaScript/findpwd.js"></script>
+</head>
+<body>
+	<div id="enroll-header">
+		<img src="libs/images/enroll/logo.gif" class="logo">
+		<img src="libs/images/enroll/registerAuthenticPic.png" class="stepCar">
+	</div>
+	<div id="main">
+		<div id="L-main">
+			<ul>
+				<li class="active">
+					<i class="phoneC">1</i>填写邮箱/手机号
+				</li>
+				<li>
+					<i class="status">2</i>验证身份
+				</li>
+				<li>
+					<i class="newPwd">3</i>设置新密码
+				</li>
+				<li>
+					<i class="done">4</i>完成
+				</li>
+			</ul>
+		</div>
+		<div id="R-main">
+			<form id="enrollForm">
+				<fieldset>
+					<ul>
+						<li class="txt">
+							邮箱/手机号：<input type="text" name="cellPhone" placeholder="请输入邮箱/手机号码">
+						</li>
+						<li class="code">
+							验证码：<input type="text" name="verifyCode" placeholder="请输入验证码">
+							<span id="verifyImg"></span>
+							<a href="javascript:;" onclick="random()">换一张</a>
+						</li>
+						<li class="submit">
+							<button>下一步</button>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<iframe frameborder=0 width=1280px height=280px marginheight=0 marginwidth=0 scrolling=no src='common-footer.html'></iframe>
+</body>
+</html>

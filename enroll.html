@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>古俊辉 - enroll</title>
+	<link rel="stylesheet" type="text/css" href="libs/style/enroll.css">
+	<script type="text/javascript" src="libs/plugin/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/plugin/jquery-validation-1.15.1/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="libs/plugin/jquery.cookie/jquery.cookie.js"></script>
+	<script type="text/javascript" src="libs/javaScript/enroll.js"></script>
+</head>
+<body>
+	<div id="enroll-header">
+		<img src="libs/images/enroll/logo.gif" class="logo">
+		<img src="libs/images/enroll/registerAuthenticPic.png" class="stepCar">
+	</div>
+	<div id="main">
+		<div id="L-main">
+			<img src="libs/images/enroll/wei.png">
+		</div>
+		<div id="R-main">
+			<form id="enrollForm">
+				<fieldset>
+					<div class="form-title">
+						<h3>新用户注册</h3>
+						<span class="goLogin">已有麦乐购账号，<a href="Login.html">直接登录</a></span>
+					</div>
+					<ul>
+						<li class="txt">
+							<input type="text" name="cellPhone" placeholder="请输入手机号码">
+						</li>
+						<li class="txt">
+							<input type="password" id="userPwd" name="userPwd" placeholder="请输入密码">
+						</li>
+						<li class="txt">
+							<input type="password" name="confirmPwd" placeholder="请再次输入密码">
+						</li>
+						<li class="code">
+							<input type="text" name="verifyCode" placeholder="请输入验证码">
+							<span id="verifyImg"></span>
+							<a href="javascript:;" onclick="random()">换一张</a>
+						</li>
+						<li class="code">
+							<input type="text" name="verifyMes" placeholder="短信校验码">
+							<a href="javascript:;" id="getMes">获取短信校验码</a>
+						</li>
+						<li class="check">
+							<input type="checkbox" id="agree" name="agree" checked="checked" >已阅读并同意
+							<a href="#">《麦乐购注册协议及交易条款》</a>
+						</li>
+						<li class="submit">
+							<button>立即注册</button>
+						</li>
+						<li class="speech">
+							<span>收不到短信？请使用<a href="#">语音验证码</a></span>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div id="public-footer"></div>
+	<script type="text/javascript">
+		$(function () {
+			$("#public-footer").load("common-footer.html?"+Math.random());
+		})
+	</script>
+	<!-- <iframe frameborder=0 width=1280px height=280px marginheight=0 marginwidth=0 scrolling=no src='common-footer.html'></iframe> -->
+</body>
+</html>

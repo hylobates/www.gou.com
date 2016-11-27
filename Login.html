@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>古俊辉 - Login</title>
+	</style>
+	<link rel="stylesheet" type="text/css" href="libs/style/Login.css">
+	<script type="text/javascript" src="libs/plugin/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/plugin/jquery-validation-1.15.1/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="libs/plugin/jquery.cookie/jquery.cookie.js"></script>
+	<script type="text/javascript" src="libs/javaScript/Login.js"></script>
+</head>
+<body>
+	<div id="enroll-header">
+		<img src="libs/images/enroll/logo.gif" class="logo">
+		<img src="libs/images/enroll/registerAuthenticPic.png" class="stepCar">
+	</div>
+	<div id="main">
+		<div id="L-main">
+			<img src="libs/images/enroll/wei.png">
+		</div>
+		<div id="R-main">
+			<form id="enrollForm">
+				<fieldset>
+					<div class="form-title">
+						<h3>登陆</h3>
+						<span class="goLogin"><a href="enroll.html">免费快速注册</a></span>
+					</div>
+					<ul>
+						<li class="txt">
+							<input type="text" name="cellPhone" placeholder="手机号码/邮箱/用户名">
+						</li>
+						<li class="txt">
+							<input type="password" id="userPwd" name="userPwd" placeholder="密码">
+						</li>
+						<li class="code">
+							<input type="text" name="verifyCode" placeholder="请输入验证码">
+							<span id="verifyImg"></span>
+							<a href="javascript:;" onclick="random()">换一张</a>
+						</li>
+						<li class="check">
+							<a href="#">忘记密码？</a>
+						</li>
+						<li class="submit">
+							<button>登陆</button>
+						</li>
+						<li class="speech">
+							<span>使用其他账号登陆：<a href="#" class="qq icon"></a><a href="#" class="zfb icon"></a><a href="#" class="three icon"></a><a href="#" class="sina icon"></a></span>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div id="public-footer"></div>
+	<script type="text/javascript">
+		$(function () {
+			$("#public-footer").load("common-footer.html?"+Math.random());
+		})
+	</script>
+	<!-- <iframe frameborder=0 width=1280px height=390px marginheight=0 marginwidth=0 scrolling=no src='common-footer.html'></iframe> -->
+</body>
+</html>

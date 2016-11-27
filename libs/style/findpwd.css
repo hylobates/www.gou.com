@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*****头部******/
+#enroll-header{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+}
+#enroll-header .logo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#enroll-header .stepCar{
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+}
+
+
+/*****中间******/
+#main{
+	padding-top: 30px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*******左边*******/
+#L-main{
+	width: 1000px;
+	height: 82px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+#L-main li{
+	list-style: none;
+	width: 200px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	color: #C5C5C5;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+}
+#L-main li i{
+	display: inline-block;
+	color: #fff;
+	width: 27px;
+	height: 30px;
+	font-style:normal;
+}
+#L-main .active{
+	color: #E83917;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #E83917;
+}
+#L-main .phoneC{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) 0px -172px no-repeat;
+}
+#L-main .status{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) 0px -228px no-repeat;
+}
+#L-main .newPwd{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) 0px -228px no-repeat;
+}
+#L-main .done{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) 0px -228px no-repeat;
+}
+#L-main ul{
+	width: 800px;
+	padding-top:50px;
+	margin:0 auto;
+}
+/*******右边******/
+#R-main{
+	margin: 0 auto;
+	width: 800px;
+	height: 202px;
+	padding: 20px 40px;
+
+}
+#R-main ul{
+	list-style: none;
+	font-size: 14px;
+}
+#enrollForm fieldset{
+	border: none;
+}
+#enrollForm .txt input,label{
+	width: 288px;
+	height: 42px;
+	color: #999;
+	border: 1px solid #DEDEDE;
+	padding-left: 5px;
+}
+#enrollForm .txt label{
+	position: absolute;
+	left: 85px;
+	top: 50px;
+}
+#enrollForm li{
+	position: relative;
+	width: 600px;
+	height: 56px;
+	margin: 22px auto;
+	color: #444;
+}
+#enrollForm li label{
+	font-size: 12px;
+	height: 26px;
+	color:#FF6B52;
+	border: none;
+}
+#enrollForm .code{
+	position: relative;
+	padding-left: 68px;
+}
+#enrollForm .code label{
+	position: absolute;
+	left: 120px;
+	top: 50px;
+}
+#enrollForm .code input{
+	width: 108px;
+	height: 42px;
+	color: #999;
+	border: 1px solid #DEDEDE;
+	padding-left: 5px;
+}
+#enrollForm .code span{
+	display: inline-block;
+	width: 85px;
+	height: 25px;
+	color: #000;
+	text-align: center;
+}
+#enrollForm .code a{
+	color: #999;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 30px;
+}
+#enrollForm .code a:hover{
+	color: #128CFF;
+}
+#enrollForm .submit{
+	margin: 5px 0 0 50px;
+	width: 120px;
+	height: 40px;
+	padding-left: 140px;
+}
+#enrollForm .submit button{
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	background-color: #e83917;
+	font-size: 22px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}

@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*****头部******/
+#enroll-header{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 103px;
+}
+#enroll-header .logo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#enroll-header .stepCar{
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+}
+
+
+/*****中间******/
+#main{
+	padding-top: 30px;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#L-main{
+	float: left;
+}
+/*******右边******/
+#R-main{
+	float: left;
+	width: 290px;
+	height: 316px;
+	padding: 20px 40px;
+	border: 1px solid #ccc;
+	border-top: 2px solid #EA3918;
+}
+#R-main ul{
+	list-style: none;
+}
+#enrollForm fieldset{
+	border: none;
+}
+#enrollForm h3{
+	float: left;
+	color: #444;
+	font-weight: 500;
+	font-size: 22px;
+}
+#enrollForm .goLogin{
+	float: right;
+	font-size: 13px;
+	line-height: 26px;
+}
+#enrollForm .goLogin a{
+	color: #999;
+	text-decoration: none;
+}
+#enrollForm .goLogin a:hover{
+	color:#128CFF;
+}
+.form-title{
+	height: 26px;
+	width: 290px;
+	clear: both;
+	margin-bottom: 20px;
+}
+#enrollForm .txt input,label{
+	width: 288px;
+	height: 28px;
+	color: #999;
+	border: 1px solid #DEDEDE;
+	padding-left: 5px;
+}
+#enrollForm li{
+	width: 290px;
+	height: 56px;
+}
+#enrollForm li label{
+	font-size: 12px;
+	height: 26px;
+	color:#FF6B52;
+	border: none;
+}
+#enrollForm .code{
+	position: relative;
+}
+#enrollForm .code label{
+	position: absolute;
+	left: 5px;
+	top: 40px;
+}
+#enrollForm .code input{
+	width: 108px;
+	height: 30px;
+	color: #999;
+	border: 1px solid #DEDEDE;
+	padding-left: 5px;
+}
+#enrollForm .code span{
+	display: inline-block;
+	width: 85px;
+	height: 25px;
+	color: #000;
+	text-align: center;
+}
+#enrollForm .code a{
+	color: #999;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 30px;
+}
+#enrollForm .code a:hover{
+	color: #128CFF;
+}
+#enrollForm #getMes{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	color: #444;
+}
+#enrollForm .check{
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+}
+#enrollForm .check a{
+	color: #999;
+	text-decoration: none;
+	margin-left: 230px;
+}
+#enrollForm .check a:hover{
+	color: #128CFF;
+}
+#enrollForm .check input{
+	vertical-align: middle;
+}
+#enrollForm .submit{
+	margin-top: 5px;
+	width: 290px;
+	height: 40px;
+}
+#enrollForm .submit button{
+	width: 290px;
+	height: 40px;
+	color: #fff;
+	background-color: #e83917;
+	font-size: 22px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	outline: none;
+}
+#enrollForm .speech{
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+#enrollForm .speech span{
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+#enrollForm .speech a{
+	display: inline-block;
+	text-decoration: none;
+	color: #128CFF;
+}
+#enrollForm .speech .icon{
+	width: 20px;
+	height: 20px;
+	margin: 0px 5px -5px 5px;
+}
+#enrollForm .speech .qq{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) -26px -128px no-repeat ;
+}
+#enrollForm .speech .zfb{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) -106px -128px no-repeat ;
+}
+#enrollForm .speech .three{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) -147px -382px no-repeat ;
+}
+#enrollForm .speech .sina{
+	background: url(../images/Login/7u5lO2x0AAAAAElFTkSuQmCC.png) -66px -128px no-repeat ;
+}

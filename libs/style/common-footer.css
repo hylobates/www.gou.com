@@ -1,0 +1,42 @@
+body,div,a,span,img{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+p{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+#public-footer{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	height: 132px;
+	margin-top: 50px;
+}
+#list{
+	background-color: #444851;
+	height: 35px;
+	width: 100%;
+}
+#list a{
+	display: inline-block;
+	color: #ADADAD;
+	line-height: 35px;
+	padding: 0 17px;
+}
+#list a:hover{
+	color: #F5F5F5;
+}
+#list span{
+	color: #4E5553;
+}
+#call{
+	margin-top: 10px;
+}
+#call a{
+	color: #000;
+}

@@ -1,0 +1,135 @@
+.trolley{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #C97070;
+	margin-top: 20px;
+}
+.trolley h4{
+	padding-left: 20px;
+	color: #fff;
+	background: #C97070;
+	height: 28px;
+	line-height: 28px;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+.selAll{
+	padding-left: 20px;
+}
+.trolley-from{
+	width: 960px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.trolley-from table{
+	border-color: #ccc;
+}
+.trolley-from thead td{
+	background: #eee;
+	height: 28px;
+	line-height: 28px;
+	color: #444;
+	font-size: 12px;
+	padding: 0px 5px;
+	text-align: center;
+}
+.trolley-from thead td input{
+	vertical-align: middle;
+}
+.trolley-from tbody td{
+	padding: 10px;
+}
+.trolley-from tbody td > div{
+	float: left;
+}
+.trolley-from tbody td input{
+	margin: 15px 10px 0 0 ;
+}
+.trolley-from tbody td img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ccc;
+}
+.trolley-from tbody td p{
+	width:317px;
+	margin:0 5px 8px 5px;
+	font-size: 12px;
+	color: #444;
+}
+.trolley-from tbody td p:last-child{
+	color: #999;
+}
+.unit-price{
+	color: #494444;
+	font-weight: 700;
+}
+.goods-Number .sub-num,.goods-Number .add-num{
+	display: inline-block;
+	width: 22px;
+	height: 26px;
+	text-align: center;
+	color: #666;
+	background: #EEEEEE;
+	border: 1px solid #DDD;
+	text-decoration: none;
+}
+.goods-Number .sub-num{
+	margin-left: 15px;
+}
+.trolley-from tbody .goods-Number input{
+	text-align: center;
+	width: 30px;
+	height: 24px;
+	border: none;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	margin:4px 0 0  0;
+	vertical-align: middle;
+}
+.bodt-footer{
+	background: #F0F0F0;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.bodt-footer .fl{
+	width: 246px;
+	float: left;
+}
+.bodt-footer .fl a{
+	margin-left: 20px;
+	color: #0064ED;
+	text-decoration: none;
+}
+.bodt-footer .fr{
+	text-align: right;
+	width: 450px;
+	float: right;
+}
+.bodt-footer .fr button{
+	width: 140px;
+	height: 45px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background: #CF2E13;
+	margin-left: 15px;
+	border: none;
+}
+.bodt-footer .fr b{
+	color: #CF2E13;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.bodt-footer .fr em{
+	color: #CF2E13;
+	margin-left: 20px;
+	font-style: normal;
+}
+#bar-Top{
+	margin-bottom: 20px;
+}
